@@ -1,0 +1,30 @@
+p {
+	color: red;
+}
+
+.picture {
+	
+}
+
+h1 {
+  background-color: #7cb6cf;
+  /*margin: 0;*/
+  padding: 0px 0px;
+}
+
+body {
+  background-color: #74dbd8;
+  margin: 0;
+  padding: 0px 0px;
+}
+
+/* Table Styling */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
