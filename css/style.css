@@ -13,18 +13,45 @@ h1 {
 }
 
 body {
-  background-color: #74dbd8;
+  background-color: white;
   margin: 0;
   padding: 0px 0px;
 }
-
+td {
+	text-align: center;
+}
+.youtubeVideo {
+	width: 200;
+	height: 100;
+}
 /* Table Styling */
 
 table {
-  height: 40%;
+  
   left: 10%;
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
-  width: 80%;
+  width: 90%;
+}
+table td, table th {
+ border: 1px solid black;
+}
+table tr:first-child th {
+  border-top: 1px solid black;
+}
+table tr:last-child td {
+  border-bottom: 1px solid black;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 1px solid black;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 1px solid black;
+}
+
+td {
+	
 }
