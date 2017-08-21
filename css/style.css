@@ -1,6 +1,12 @@
 p {
 	color: red;
 }
+#picture {
+	height: 50%;
+	width: 50%;
+	
+	
+}
 
 table.image {
 	position: center;
