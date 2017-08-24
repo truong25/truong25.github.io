@@ -34,6 +34,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
+  float: right;
 }
 
 header p {
@@ -134,6 +135,19 @@ section a:hover
 #directingbtn {
 	border: 1px none;
 	
+}
+/*footer */
+
+#contact {
+
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+footer .container {
+	display: flex;
+  align: left;
 }
 /**/
 .topbutton {
