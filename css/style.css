@@ -1,9 +1,152 @@
+/*start of top button CSS*/
+#topbtn {
+
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #424141; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#topbtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*start of bootstrap CSS*/
+
+header .row,
+footer .row {
+  display: inline;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  text-align: center;
+}
+header {
+  padding: 20px 0;
+  text-align: center;
+  font-family: Verdana;
+}
+header.container {
+	  border: solid;
+	  margin-bottom: 30px;
+	  background-image: url("http://crashcodex.com/codex/logo.png");
+		
+
+}
+nav p {
+	border:1px solid;
+	margin-right: 10px;
+}
+
+footer.container {
+	font-size: 10px;
+	justify-content: left-side;
+}
+#headerArt {
+	height: auto;
+	width: 250px;
+	top: 0px;
+	margin: 0 20px;
+}
+
+/* bootscrap jumbotron 
+
+header{
+	background-image: url("http://crashcodex.com/codex/logo.png");
+	background-color: white;
+
+	background-attachment: fixed;
+	background-size: 50% 50%;
+	
+	background-repeat: no-repeat;
+	z-index: 0;
+	position: float;
+}
+*/
+
+/*Section container*/
+
+section a {
+    color: white;
+    text-decoration: none;
+	display: block;     
+	position: relative;      
+	padding: 0;     
+	margin: 0; 
+}
+
+section a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor:pointer;  
+	 
+	 
+}
+#ultwiz, #gacha, #ranking, #wiz {
+	background-image: url("http://i.imgur.com/A7BRvcP.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: auto;
+	filter: grayscale(40%);
+	color: white;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 60px;
+	font-family: Verdana;
+	justify-content: center;
+	display: flex;
+	text-align: center;
+	 margin: 0 0 30px;
+
+
+}
+#gacha {
+	background-image: url("http://i.imgur.com/WrFdlEz.png");
+}
+#ranking {
+	background-image: url("http://i.imgur.com/gMyU72P.png");
+}
+#wiz {
+	background-image: url("http://i.imgur.com/59B6kQx.png");
+}
+#directingbtn {
+	border: 1px none;
+	
+}
+/**/
+.topbutton {
+	margin-top: 50px;
+	
+}
 p {
-	color: red;
+	
 }
 #picture {
 	height: 50%;
 	width: 50%;
+	z-index: 1;
 	
 	
 }
@@ -17,7 +160,7 @@ table.image {
 }
 
 h1 {
-  background-color: #7cb6cf;
+  
   /*margin: 0;*/
   padding: 0px 0px;
 }
