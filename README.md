@@ -1,6 +1,6 @@
 # About
 This repository is the result of my learning of HTML and CSS from CodeAcademy's HTML and CSS online courses. 
-After each lessons I would try to apply it to this website. 
+After each lesson I would try to apply what I just learned to this website. 
 This website is designed to be an aid for my YouTube channel, making it more simple for users to navigate.
 
 I am currently learning JavaScript and will begin integrating what I learned soon.
